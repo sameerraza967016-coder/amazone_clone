@@ -1,0 +1,606 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0%;
+
+}
+.navbaar
+{
+    background-color:black;
+    height: 52px;
+    display: flex;
+}
+.amazonelogo
+{
+background-image:url("logo.jpg");
+background-size:cover;
+margin-right: 0px;
+height: 48px; 
+width: 100px;
+border: 1.5px solid transparent;
+}
+.amazonelogo:hover{
+border: 1.5px solid  white;
+} 
+.location{
+    color: white;
+    font-size: 15px;
+    border: solid transparent 1.5px;
+    margin-left: 20px;
+}
+.location:hover{
+   border: 1.5px solid  white;
+}
+.all{
+    height: 40px;
+    margin-top:5px;
+    width: 60px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-left: 20px;
+}
+.search{
+    height: 36.5px;
+    margin-top: 5px;
+    width: 680px;
+}
+.button{
+    height: 41px;
+    margin-top: 5px;
+    width: 40px;
+    background-color: rgb(147, 147, 71);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.language{
+
+     height: 39px;
+    margin-top:5px;
+    width: 58px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.hello{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    border: solid transparent 1.5px;
+}
+.hello:hover{
+    border: solid  white 1.5px;
+}
+.return{
+    color: white;
+    margin-left: 20px;
+    border: solid transparent 1.5px;
+}
+.return:hover{
+    border: solid white 1.5px;
+}
+.order{
+    font-size: 25px;
+}
+.cartlogo{
+    background-image: url("cart.jpg");
+    background-size: cover;
+    height: 48px; 
+    width: 100px;
+    border: 1.5px solid transparent;
+    margin-left: 20px;
+}
+.cartlogo:hover{
+    border: solid white 1.5px;
+}
+.navbaar2{
+    height: 35px;
+    background-color: rgb(32, 30, 30);
+    display: flex;
+}
+.a{
+    color: white;
+    height: 30px;
+    width: 50px;
+    border: solid transparent 1.5px;
+    margin-left: 20px;
+}
+.a:hover{
+    border: solid white 1.5px;
+}
+.b{
+   color: white;
+    height: 30px;
+    width: 100px;
+    border: solid transparent 1.5px;
+    margin-left: 20px; 
+}
+.b:hover{
+    border: solid white 1.5px;
+}
+.c{
+   color: white;
+    height: 30px;
+    width: 100px;
+    border: solid transparent 1.5px;
+    margin-left: 20px; 
+}
+.c:hover{
+    border: solid white 1.5px;
+}
+.d{
+   color: white;
+    height: 30px;
+    width: 120px;
+    border: solid transparent 1.5px;
+    margin-left: 20px; 
+}
+.d:hover{
+    border: solid white 1.5px;
+}
+.sellpicture{
+    height: 449px;
+    display: flex;
+    margin-top: 10px;
+}
+.pic1{
+    background-image: url("picture1.jpg");
+    background-size: cover;
+    height: 449px;
+    width: 270px;
+    margin-left: 20px;
+    border-radius: 4%;
+    transition: 0.5s;
+    font-size: 20px;
+
+    
+}
+.pic2{
+    background-image: url("picture2.jpg");
+    background-size: cover;
+    height: 449px;
+    width: 270px;
+    margin-left: 20px;
+     border-radius: 4%;
+      transition: 0.5s;
+}
+.pic3{
+    background-image: url("picture3.jpg");
+    background-size: cover;
+    height: 449px;
+    width: 270px;
+    margin-left: 20px;
+     border-radius: 4%;
+      transition: 0.5s;
+      color: white;
+      font-size: 20px;
+}
+.pic4{
+    background-image: url("picture4.jpg");
+    background-size: cover;
+    height: 449px;
+    width: 270px;
+    margin-left: 20px;
+     border-radius: 4%;
+      transition: 0.5s;
+      font-size: 20px;
+}
+.pic5{
+    background-image: url("picture5.jpg");
+    background-size: cover;
+    height: 449px;
+    width: 270px;
+    margin-left: 20px;
+     border-radius: 4%;
+      transition: 0.5s;
+      font-size: 20px;
+}
+.pic1:hover{
+    transform: scale(1.04);
+}
+.pic2:hover{
+    transform: scale(1.04);
+}
+.pic3:hover{
+    transform: scale(1.04);
+}
+.pic4:hover{
+    transform: scale(1.04);
+}
+.pic5:hover{
+    transform: scale(1.04);
+}
+.under{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.Beauty{
+    font-size: 20px;
+}
+.months{
+    color: white;
+    font-size: 30px;
+    margin-left: 12px;
+}
+.sellpicture2{
+    height: 449px;
+    margin-top: 40px;
+    display: flex;
+    width: 20px;
+}
+.first1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.first2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pic41{
+background-image: url("blutooth1.jpg");
+height: 220px;
+width: 220px;
+background-size: cover;
+border-radius: 10px ;
+transition: 0.5s;
+}
+.pic41:hover{
+   transform: scale(1.09); 
+
+}
+.pic42{
+background-image: url("blutooth2.jpg");
+height: 220px;
+width: 220px;
+background-size: cover;
+border-radius: 10px;
+transition: 0.5s;
+margin-left: 20px;
+}
+.pic42:hover{
+   transform: scale(1.09); 
+
+}
+.pic43{
+background-image: url("blutooth3.jpg");
+height: 220px;
+width: 220px;
+background-size: cover;
+border-radius: 10px;
+transition: 0.5s;
+}
+.pic43:hover{
+   transform: scale(1.09); 
+
+}
+.pic44{
+background-image: url("blutooth4.jpg");
+height: 220px;
+width: 220px;
+background-size: cover;
+border-radius: 10px;
+transition: 0.5s;
+margin-left: 20px;
+}
+.pic44:hover{
+   transform: scale(1.09); 
+
+}
+#picture1{
+    background-image: url("photo1.jpg");
+}
+#picture2{
+    background-image: url("photo2.jpg");
+}
+#picture3{
+    background-image: url("photo3.jpg");
+}
+#picture4{
+    background-image: url("photo4.jpg");
+}
+#picture5{
+    background-image: url("photo5.jpg");
+}
+#picture6{
+    background-image: url("photo6.jpg");
+}
+#picture7{
+    background-image: url("photo22.jpg");
+}
+#picture8{
+    background-image: url("photo8.jpg");
+}
+#picture9{
+    background-image: url("picture31.jpg");
+}
+#picture10{
+    background-image: url("picture32.jpg");
+}#picture11{
+    background-image: url("picture33.jpg");
+}#picture12{
+    background-image: url("picture34.jpg");
+}#picture13{
+    background-image: url("picture35.jpg");
+}#picture14{
+    background-image: url("picture36.jpg");
+}#picture15{
+    background-image: url("picture37.jpg");
+}#picture16{
+    background-image: url("picture38.jpg");
+}#picture17{
+    background-image: url("picture39.jpg");
+}#picture18{
+    background-image: url("picture40.jpg");
+}
+#picture19{
+    background-image: url("picture41.jpg");
+}
+#picture20{
+    background-image: url("picture42.jpg");
+}
+.last{
+    height: 300px;
+    background-image: url("last1.gif");
+    background-size: cover;
+    color: white;
+    
+}
+.last1{
+    height: 200px;
+    background-color: rgb(5, 5, 24);
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.food{
+    height: 1500px;
+    width: 1456px;
+}
+.food1{
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+}
+.food11{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 10%;
+    background-image: url("food1.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food11:hover{
+    box-shadow: 0 0 10px black;
+}.food12{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food2.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food12:hover{
+    box-shadow: 0 0 10px black;
+}.food13{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food3.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food13:hover{
+    box-shadow: 0 0 10px black;
+}.food14{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food4.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food14:hover{
+    box-shadow: 0 0 10px black;
+}
+.food21{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 10%;
+    background-image: url("food5.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food21:hover{
+    box-shadow: 0 0 10px black;
+}
+.food22{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food6.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food22:hover{
+    box-shadow: 0 0 10px black;
+}.food23{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food7.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food23:hover{
+    box-shadow: 0 0 10px black;
+}.food24{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food8.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food24:hover{
+    box-shadow: 0 0 10px black;
+}
+#food1{
+    display: flex;
+}
+.food31{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 10%;
+    background-image: url("food9.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food31:hover{
+    box-shadow: 0 0 10px black;
+}.food32{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food10.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food32:hover{
+    box-shadow: 0 0 10px black;
+}.food33{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food11.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food33:hover{
+    box-shadow: 0 0 10px black;
+}.food34{
+    background-color: blue;
+    height:400px ;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+    background-image: url("food12.avif");
+    background-size: cover;
+    transition: 0.5s;
+}
+.food34:hover{
+    box-shadow: 0 0 10px black;
+}
+.sign{
+    margin-top: 0%;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+}
+#button{
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: yellow;
+    transition: 0.5s;
+}
+#button:hover{
+    transform:scale(1.09);
+}
+.foter1{
+    height: 500px;
+    background-color: #224248;
+    color: white;
+    text-align: center;
+    
+}
+.foter2{
+    height: 250px;
+    background-color: #0F3040;
+    color: white;
+    display: flex;
+}
+.new{
+    font-size: 15px;
+}
+#new{
+    color:rgb(35, 0, 176);
+}
+#tab{
+height: 50px;
+  background-color: #092328;
+color: white;
+text-align: center;
+
+}
+#tab2{
+    height: 100px;
+    background-color: #233448;
+    display: flex;
+    
+}
+.an{
+    font-size: 20px;
+}
+.an1{
+    font-size: 20px;
+}
+a{
+    margin-left: 50px;
+}
+#gap{
+    text-align: center;
+    text-align: left;
+}
+.logo0{
+    margin-top: 25px;
+    height: 50px;
+    background-image:url("logo.jpg");
+    width: 100px;
+    margin-left: 500px;
+    background-size: cover;
+}
+.lan{
+    margin-top: 35px;
+    height: 35px;
+    margin-left: 100px;
+    width: 150px;
+    background-color:#233448;
+    color: white;
+    border-color: white;
+}
+
+#tech{
+  margin-top: 50PX;
+    text-align: center;
+    margin-left: 200PX;
+}
+.foter3{
+    height: 200px;
+    background-color: #0F3040;
+    color: white;
+    font-size: 30px;
+}
